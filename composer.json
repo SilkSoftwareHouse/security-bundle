@@ -1,6 +1,6 @@
 {
     "name": "silksh/security-bundle",
-    "description": "Security related extensions for Symfony 3-4",
+    "description": "Security related extensions for Symfony",
     "type": "symfony-bundle",
     "homepage": "https://github.com/SilkSoftwareHouse/security-bundle",
     "require": {
