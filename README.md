@@ -57,15 +57,15 @@ The bundle provides some Validators in the namespace `SilkSH\SecurityBundle\Vali
      * )
      */
     private $file;
-  
+
   ```
 
 - `Name` allows only international alphanumeric and some special characters (A-z 0-9 - + _ . , @ " '). Possible properties:
   - `message`: custom error message. You can use `{{ allowed_signs }}` inside.
-  
+
 - `HTMLPurifier` allows only whitelisted HTML tags and attributes. It uses [HTML Purifier](http://htmlpurifier.org/) library.  Possible properties:
   - `message`: custom error message.
-  
+
 - `TagWhitelist`: simple and buggy HTML tag validator that uses `DOMDocument`. Using `HTMLPurifier` instead is recommended. Possible properties:
   - `allowedTags`, default: "html", "head", "meta", "title", "style", "body", "table", "tr", "th", "td", "h1", "h2", "h3", "h4", "h5", "h6", "p", "a", "img", "br", "span", "small". 
   - `allowedTagsMessage`, custom error message for non valid tags. You can use `{{ allowed_tags }}` inside.
