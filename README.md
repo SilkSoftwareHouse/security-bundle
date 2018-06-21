@@ -4,7 +4,7 @@ This bundle requires **Symfony 3** or **Symfony 4**.
 
 Add the bundle to you project dependencies:
 ```bash
-composer require SilkSoftwareHouse/security-bundle
+composer require silksh/security-bundle
 ```
 
 **Symfony 3**. Enable the bundle:

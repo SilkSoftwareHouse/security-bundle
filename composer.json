@@ -1,5 +1,5 @@
 {
-    "name": "SilkSoftwareHouse/security-bundle",
+    "name": "silksh/security-bundle",
     "description": "Security related extensions for Symfony 3-4",
     "type": "symfony-bundle",
     "homepage": "https://github.com/SilkSoftwareHouse/security-bundle",
