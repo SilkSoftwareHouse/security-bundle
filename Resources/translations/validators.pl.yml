@@ -1,0 +1,6 @@
+filename.extension_not_allowed: "Rozszerzenie pliku '{{ extension }}' jest niedozwolone, dozwolone są następujące: {{ extensions }}"
+filename.too_long: "Nazwa pliku jest zbyt długa. Maksymalnie są dozwolono {{ max_length }} znaków"
+name.not_allowed_signs: "Pole zawiera niedozwolone znaki. Dozwolone znaki to: {{ allowed_signs }}"
+html_purifier.not_valid_html: "Pole zawiera niedozwolone HTML tagi albo atrybuty"
+tag_whitelist.tags: "Pole zawiera niedozwoloną treść. Dozwolone HTML tagi: {{ allowed_tags }}."
+tag_whitelist.attributes: "Pole zawiera niedozwoloną treść. Dozwolone HTML atrybuty: {{ allowed_attributes }}."

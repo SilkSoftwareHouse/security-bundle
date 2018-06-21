@@ -1,0 +1,27 @@
+{
+    "name": "SilkSoftwareHouse/security-bundle",
+    "description": "Security related extensions for Symfony 3-4",
+    "type": "symfony-bundle",
+    "homepage": "https://github.com/SilkSoftwareHouse/security-bundle",
+    "require": {
+        "symfony/validator": "^3.0 || ^4.0",
+        "symfony/framework-bundle": "^3.0 || ^4.0",
+        "ezyang/htmlpurifier": "^4.10",
+        "twig/twig": "^1.28 || ^2.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.4"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Tomas Balsys",
+            "email": "tomasz.balsys@silksh.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SilkSH\\SecurityBundle\\": ""
+        }
+    }
+}

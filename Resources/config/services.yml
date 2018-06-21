@@ -1,0 +1,6 @@
+services:
+    html_purifier.twig_extension:
+        class: SilkSH\SecurityBundle\Twig\HTMLPurifierExtension
+        public: false
+        tags:
+            - { name: twig.extension }
