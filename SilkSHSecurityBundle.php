@@ -10,7 +10,7 @@ namespace SilkSH\SecurityBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SilkshSecurityBundle extends Bundle
+class SilkSHSecurityBundle extends Bundle
 {
 
 }
